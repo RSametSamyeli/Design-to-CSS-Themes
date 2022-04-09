@@ -4,3 +4,11 @@ Teknoloji olarak sadece HTML, CSS & Javascript bazılarında ise Javascript küt
 Yanlışlıkla silinen Github'da aynı çalışmaların Wordpress Temasına çevrilmiş halleri de mevcuttu, bulabilirsem onları da ekleyeceğim.
 
 İstenildiği gibi düzenlebilir durumdadır. İyi çalışmalar (:
+
+<img align="right" alt="GIF" src="https://github.com/RSametSamyeli/Design-to-CSS-Themes/blob/main/kappe/kappe-tasarim.jpg?raw=true"/>
+
+<img align="right" alt="GIF" src="https://github.com/RSametSamyeli/Design-to-CSS-Themes/blob/main/kappe/kappe-desktop.gif?raw=true"/>
+
+<img align="right" alt="GIF" src="https://github.com/RSametSamyeli/Design-to-CSS-Themes/blob/main/kappe/kappe-mobil.gif?raw=true"/>
+
+
