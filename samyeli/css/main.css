@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.clear{
+  clear: both;
+}
+header{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  width: 100%;
+}
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+display: inline-block;
+padding-left: 30px;
+}
+
+header nav ul li a{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover, header nav ul li a:focus{
+  color: #c61f27;
+  text-decoration: none;
+}
+
+header .logo{
+  float: left;
+}
+
+#mainContent{
+  background: url('../img/mainbg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.mainArea{
+  padding-top: 30%;
+}
+
+.mainArea h1{
+  font-size: 36px;
+  font-weight: 300;
+  color: #c61f27;
+  margin-bottom: 40px;
+}
+
+.mainArea h2{
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.mainArea p{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.mainArea .btn-success{
+background-color: #c61f27;
+border: none;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+margin-bottom: 60px;
+}
+
+#services{
+  background-color: #efefef;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.servicesTop h2{
+font-size: 36px;
+font-weight: 400;
+color: #c61f27;
+}
+
+.servicesTop p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #000000;
+}
+
+.fas{
+  color: #c61f27;
+}
+
+.servicesContent h3{
+  color: #c61f27;
+  font-size: 24px;
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+#works{
+  background: url('../img/worksbg.jpg');
+  width: 100%;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#works h2{
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#works p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+#counter{
+  background: url('../img/counterbg.jpg');
+  width: 100%;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#counter .fas{
+  color: #ffffff;
+  font-size: 72px;
+}
+
+#counter h3{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+#team{
+  background: url('../img/teambg.jpg');
+  width: 100%;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#team h2{
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#team p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.teamContent h3{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 20px;
+}
+.teamContent h4{
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.teamContent .fa-twitter-square, .fa-linkedin{
+  color: #ffffff;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+}
+
+#partners{
+  background-color: #efefef;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#partners img{
+  width: 180px;
+  height: 180px;
+}
+
+#contact{
+  background: url('../img/contactbg.jpg');
+  width: 100%;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contactTop h2{
+  font-size: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.contactTop p{
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+form{
+  width: 80%;
+  margin: 0 auto; 
+}
+
+input,textarea{
+  background-color:#c61f27;
+  width: 100%;
+  border: none;
+  margin-bottom: 10px; 
+  padding:5px 0 5px 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ffffff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+}
+
+#submit{
+  background-color: #ffffff;
+  color: #c61f27;
+}
+
+.contactContent h2{
+color: #c61f27;
+font-weight: 400;
+font-size: 24px;
+}
+
+.contactContent p{
+  color: #ffffff;
+  font-weight: 300;
+}
